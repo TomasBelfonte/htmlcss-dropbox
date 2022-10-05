@@ -30,7 +30,7 @@ nav {
     display: flex;
 }
 
-ul {
+nav ul {
     display: flex;
     align-items: center;
 }
@@ -92,7 +92,7 @@ h1 {
 }
 
 .header-box-aside div button{
-    background-color: blue;
+    background-color: #0061F5;
     padding: 10px;
     color: white;
     border: none;
@@ -109,5 +109,273 @@ h1 {
 }
 
 .header-box-image img {
-    max-height: 450px;
+    max-height: 510px;
+}
+
+section {
+    width: 920px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.title-box {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.radio {
+    font-size: 16px;
+    display: flex;
+}
+
+.radio-input {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.radio-input input {
+    margin-right: 10px;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-section {
+
+    width: 30%;
+    flex-wrap: wrap;
+    border: 0.1px solid lightgray;
+    
+}
+
+.row-text {
+    border-bottom: 0.1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.row-sub-section {
+    margin: 20px 10px 50px;
+}
+
+.row-sub-section-1 {
+    margin-bottom: 20px;
+}
+
+.row-sub-section-2 {
+    margin-bottom: 10px;
+}
+
+.row-sub-section-3 {
+    margin-bottom: 10px;
+}
+.user {
+    margin-bottom: 20px;
+}
+
+.row-sub-section-plus {
+    display: flex;
+}
+
+.text-fa {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.row-single {
+    margin-left: 10px;
+}
+.row-single button{
+    background-color: #0061F5;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row-small {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    width: 50px;
+}
+
+.text-plane {
+    margin: 10px 0px 30px;
+
+}
+
+.detail-plane-img {
+    color: blue;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.second-container {
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.single-box {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.double-box {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box-right {
+
+}
+
+.box-right button {
+    background-color: #0061F5;
+    padding: 20px 50px 20px;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.box-left {
+    margin: 10px;
+
+}
+
+.box-left-title {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.box-left-subtitle {
+    margin: 10px 10px 50px;
+    font-size: 14px;
+}
+
+.box-left-text {
+    margin: 10px;
+    width: 550px;
+}
+
+.partner-container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-partner {
+
+    width: 100%;
+}
+
+.section-partner img {
+width: 100%;
+}
+
+.text-partner {
+    font-size: 18px;
+    margin: 40px;
+    width: 35%;
+}
+
+.text-partner h3 {
+    margin-bottom: 20px;
+}
+
+.text-partner p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.text-partner button {
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid black;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.cards-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.jumbo-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.jumbo-box h3 {
+    font-size: 30px;
+    }
+
+.wide-container-box { 
+    display: flex;
+    background-color: #76b8e0;
+}
+
+.wide-container {
+    background-color: #ADCFE4;
+}
+
+.wide-container button {
+    background-color: white;
+    padding: 20px 50px 20px;
+    border: none;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.text-and-icon {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-box {
+    display: flex;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.ul-box a {
+    color: white;
+}
+
+.ul-title {
+    margin-left: 10px;
+}
+
+.footer-small {
+    border-bottom: 1px solid lightgray;
+    width: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
