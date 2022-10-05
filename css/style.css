@@ -54,7 +54,7 @@ h1 {
 .container-dx button {
     background-color: blue;
     border: none;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 
 .container-dx button a {
@@ -99,7 +99,7 @@ h1 {
 }
 
 .header-box-aside i {
-    margin-top: 80px;
+    margin-top: 140px;
     font-size: 35px;
 
 }
@@ -190,14 +190,26 @@ h2 {
 .row-single {
     margin-left: 10px;
 }
+
 .row-single button{
     background-color: #0061F5;
     color: white;
     border: none;
-    padding: 10px 25px 10px;
+    padding: 10px 50px 10px;
     font-size: 14px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.row-single2 button{
+    background-color: #0061F5;
+    color: white;
+    border: none;
+    padding: 10px 85px 10px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 .row-small {
@@ -244,7 +256,7 @@ h2 {
 
 .box-right button {
     background-color: #0061F5;
-    padding: 20px 50px 20px;
+    padding: 10px 50px 10px;
     color: white;
     border: none;
     margin-right: 20px;
@@ -304,54 +316,193 @@ width: 100%;
 
 .text-partner button {
     background-color: transparent;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid black;
     margin-right: 20px;
     font-size: 18px;
 }
 
+.operation h3{
+    font-size: 27px;
+}
+
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
+    justify-content: space-between; 
+}
+
+.card {
+    width: calc((100% / 3) - 20px);
+
+}
+.card-img img {
+    width: 100%;
+    display: block
+}
+
+.card-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .jumbo-box {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 120px;
     width: 920px;
     margin: 0 auto;
 }
 
 .jumbo-box h3 {
-    font-size: 30px;
-    }
+    font-size: 27px;
+}
+
+.jumboclient {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .wide-container-box { 
     display: flex;
-    background-color: #76b8e0;
+}
+
+.box-total {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.box-img-aside {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 33.33%;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    justify-content: space-between;
+}
+
+.designit {
+    background-color: #97D39F;
+    border: 10px solid #CCE9CE;
+}
+
+.asu {
+    background-color: #68002E;
+}
+
+.florida {
+    background-color: #0093C8;
+}
+
+.topps {
+    background-color: #FF002C;
+}
+
+.bicycle {
+    background-color: #FF002C;
+}
+
+.hearst {
+    background-color: #ADCFE4;
+}
+
+.lonely {
+    background-color: #05287B;
+}
+
+.channel {
+    background-color: #FFD657;
+}
+
+
+.box-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    aspect-ratio: 1/1;
+    width: 50%; 
+}
+
+.box-image img {
+    aspect-ratio: 1/1;
+    max-width: 50%;
+    filter: invert(1);
+}
+
+.box-central {
+    overflow: auto;
+    max-width: 33.33%;
+    background-color: #F5F5F5;
+}
+
+.img-box-central img {
+    width: 40%;
+    margin: 30px;
+}
+
+.empty-central-box {
+    border-bottom: 1px solid lightgray;
+    width: 80px;
+    margin: 0 30px 30px;
+}
+
+.text-cental-box {
+    margin: 30px;
+    font-size: 14px;
+    color: gray;
+    overflow: auto;
 }
 
 .wide-container {
     background-color: #ADCFE4;
 }
 
+.jumbo {
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.jumbo-title {
+    font-size: 22px;
+    width: 350px;
+    color: #68002E;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .wide-container button {
     background-color: white;
-    padding: 20px 50px 20px;
+    padding: 10px 40px 10px;
     border: none;
-    margin-right: 20px;
-    margin-left: 40px;
     font-size: 14px;
+}
+
+.faq-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.text-title {
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    border-bottom: 1px solid lightgray;
 }
 
 .text-and-icon {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
 }
 
 footer {
@@ -371,11 +522,14 @@ footer {
 
 .ul-title {
     margin-left: 10px;
+    font-size: 22px;
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .footer-small {
     border-bottom: 1px solid lightgray;
-    width: 80px;
+    width: 120px;
     margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
